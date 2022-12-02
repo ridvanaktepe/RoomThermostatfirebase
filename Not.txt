@@ -1,0 +1,6 @@
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+make configurations on the program.cs file
+
+dotnet ef migrations add _migrationName
+dotnet ef database update
